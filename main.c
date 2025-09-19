@@ -93,7 +93,7 @@ void render_objects(){
 void debug_logs(){
 	
 	printf("your score : %d\n",game_score * 33);
-	printf("best_score score : %d\n",best_score);
+	printf("best score : %d\n",best_score);
 	/*
 	printf("x : %d , y : %d\n",game_objects[0].x,game_objects[0].y);
 	for(int i = 0; i < snake_body_size; ++i){
@@ -363,4 +363,5 @@ int main(){
 	free(snake_body);
 	
 	return 0;
+
 }
